@@ -21,6 +21,24 @@ public class Main {
 	}
 	
 	public static int countClap(int number) {
+		
+		
+		int res , numberof369 =0;
+		
+			if(number>=1&&number<=99) {
+			res = number %10;
+			if((res==3)||(res==6)||(res==9))
+				numberof369++;
+			res = number/10;
+			if((res==3)||(res==6)||(res==9))
+				numberof369++;
+			if(numberof369==1)
+				System.out.println(number+"짝");
+			else if(numberof369 ==2)
+				System.out.println(number+"짝짝");
+	
+		}
+	
 		return 0;
 	}
 }
