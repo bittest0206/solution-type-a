@@ -36,7 +36,6 @@ public class Main {
 				System.out.println(number+"짝");
 			else if(numberof369 ==2)
 				System.out.println(number+"짝짝");
-	
 		}
 	
 		return 0;
